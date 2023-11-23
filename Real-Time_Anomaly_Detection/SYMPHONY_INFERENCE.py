@@ -18,10 +18,6 @@ from METRIC_PREPROCESSING import preprocessing_main
 from METRIC_UTILS import CustomDataset, BucketBatchingSampler, Custom_collate_fn
 from METRIC_MODEL import Network
 
-import warnings
-warnings.filterwarnings("ignore")
-
-
 def get_args_parser():
     parser = argparse.ArgumentParser('PyTorch Inference', add_help=False)
 
